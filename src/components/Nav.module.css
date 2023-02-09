@@ -1,0 +1,107 @@
+.container {
+  width: 100%;
+  height: 68px;
+  display: flex;
+  position: absolute;
+  background-color: #1a1d25;
+  padding: 14px 56px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 1200px;
+}
+
+.header:hover {
+  cursor: pointer;
+}
+
+.title {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.category {
+  display: flex;
+  height: 40px;
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  padding: 14px 10px;
+  text-decoration: none;
+  margin-left: 24px;
+  align-items: center;
+  background-color: #1a1d25;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.button:hover {
+  height: 100%;
+  padding: 14px 10px;
+  border-radius: 6px;
+  opacity: 1;
+  background-color: #343a43;
+  cursor: pointer;
+}
+
+.option {
+  display: flex;
+  /* position: relative; */
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.light {
+  display: flex;
+  position: relative;
+  margin-right: 14px;
+}
+
+.light:hover {
+  cursor: pointer;
+}
+
+.input {
+  height: 40px;
+  background: #4b5563;
+  border-radius: 6px;
+  border: none;
+  box-shadow: none;
+  padding-left: 10px;
+}
+
+.input::placeholder {
+  color: #9ba3af;
+  font-weight: bold;
+}
+
+.bagButton {
+  height: 40px;
+  width: 40px;
+  box-sizing: border-box;
+  margin-left: 8px;
+}
+
+.bagButton:hover {
+  height: 40px;
+  width: 40px;
+  border-radius: 6px;
+  background-color: #4b5563;
+  cursor: pointer;
+}
+
+.bag {
+  display: flex;
+  position: relative;
+  margin-top: 5px;
+  margin-left: 5px;
+}
