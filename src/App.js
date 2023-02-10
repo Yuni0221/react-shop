@@ -1,14 +1,15 @@
-import "./App.module.css";
+import styles from "./App.module.css";
 
-import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Carousel from "./components/Carousel";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Nav />
       <Carousel />
+      <Footer />
     </div>
   );
 }

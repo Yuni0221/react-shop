@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  overflow: hidden;
+}
+
+.carouselSlider {
+  display: flex;
+  padding-top: 4rem;
+}
+
+.carouselSlider > img {
+  width: 100%;
+  height: 700px;
+  flex: none;
+}
+
+.buttons {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  height: 700px;
+  width: 100%;
+  color: red;
+}
