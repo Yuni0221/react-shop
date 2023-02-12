@@ -31,7 +31,7 @@
   position: relative;
   display: flex;
   width: 320px;
-  height: 400px;
+  height: 440px;
   background: white;
   flex-direction: column;
   overflow: hidden;
@@ -47,6 +47,11 @@
   margin: 16px;
 }
 
+.image:hover {
+  transform: scale(1.2);
+  transition: all 0.2s linear;
+}
+
 .productInfo {
   display: flex;
   flex-direction: column;
@@ -56,6 +61,7 @@
   height: 100px;
   flex: 1 1 auto;
   overflow: hidden;
+  margin-top: 28px;
 }
 
 .productTitle {
