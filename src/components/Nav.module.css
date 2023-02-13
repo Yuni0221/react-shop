@@ -12,7 +12,6 @@
 
 .header {
   display: flex;
-  flex: 1;
   position: relative;
   align-items: center;
   width: 1200px;
@@ -31,7 +30,10 @@
 
 .category {
   display: flex;
+  /* overflow-x: hidden; */
+  position: relative;
   height: 40px;
+  align-items: center;
   text-align: center;
 }
 
@@ -49,6 +51,7 @@
 
 .button:hover {
   /* height: 100%; */
+  display: flex;
   padding: 14px 10px;
   border-radius: 6px;
   opacity: 1;
@@ -121,4 +124,8 @@
   font-size: 14px;
   font-weight: bold;
   color: white;
+}
+
+.link {
+  text-decoration: none;
 }

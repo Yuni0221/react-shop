@@ -1,4 +1,6 @@
 import styles from "./Nav.module.css";
+
+import { Link } from "react-router-dom";
 import { ReactComponent as Light } from "../assets/Light.svg";
 import { ReactComponent as Bag } from "../assets/Bag.svg";
 
@@ -10,15 +12,15 @@ function Nav() {
           React Shop
         </a>
         <div className={styles.category}>
-          <a className={styles.button} href="/">
+          <Link to={"/fashion"} className={styles.button}>
             패션
-          </a>
-          <a className={styles.button} href="/">
+          </Link>
+          <Link to={"/accessory"} className={styles.button}>
             액세서리
-          </a>
-          <a className={styles.button} href="/">
+          </Link>
+          <Link to={"/digital"} className={styles.button}>
             디지털
-          </a>
+          </Link>
         </div>
       </h1>
 
