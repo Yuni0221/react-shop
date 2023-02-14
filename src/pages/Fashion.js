@@ -1,5 +1,7 @@
 import styles from "./Fashion.module.css";
 
+import { Link } from "react-router-dom";
+
 import sweater from "../assets/sweater.jpg";
 import bag from "../assets/bag.jpg";
 import hat from "../assets/hat.jpg";
@@ -14,7 +16,7 @@ function Fashion() {
       <section className={styles.section}>
         <h2 className={styles.subject}>패션</h2>
         <div className={styles.productList}>
-          <a className={styles.productCard} href="/">
+          <Link to={"/fashion/detail"} className={styles.productCard}>
             <figure>
               <img className={styles.image} src={sweater} alt="sweater" />
             </figure>
@@ -24,7 +26,7 @@ function Fashion() {
               </p>
               <p className={styles.price}>$122</p>
             </div>
-          </a>
+          </Link>
           <a className={styles.productCard} href="/">
             <figure>
               <img className={styles.image} src={bag} alt="bag" />
@@ -72,9 +74,26 @@ function Fashion() {
               <p className={styles.price}>$140</p>
             </div>
           </a>
+          <a className={styles.productCard} href="/">
+            <figure>
+              <img className={styles.image} src={onepiece} alt="onepiece" />
+            </figure>
+            <div className={styles.productInfo}>
+              <p className={styles.productTitle}>Navy Punching onepiece</p>
+              <p className={styles.price}>$140</p>
+            </div>
+          </a>
+          <a className={styles.productCard} href="/">
+            <figure>
+              <img className={styles.image} src={onepiece} alt="onepiece" />
+            </figure>
+            <div className={styles.productInfo}>
+              <p className={styles.productTitle}>Navy Punching onepiece</p>
+              <p className={styles.price}>$140</p>
+            </div>
+          </a>
         </div>
       </section>
-
       <Footer />
     </>
   );

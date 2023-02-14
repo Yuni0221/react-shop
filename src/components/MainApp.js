@@ -1,4 +1,4 @@
-import Nav from "./Nav";
+// import Nav from "./Nav";
 import Carousel from "./Carousel";
 import Footer from "./Footer";
 import Product from "./Product";
