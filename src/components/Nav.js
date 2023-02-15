@@ -27,10 +27,10 @@ function Nav() {
       <div className={styles.option}>
         <Light className={styles.light} />
         <input type="text" className={styles.input} placeholder="검색"></input>
-        <a className={styles.bagButton} href="/">
-          <Bag className={styles.bag} />{" "}
+        <Link to={"/cart"} className={styles.bagButton}>
+          <Bag className={styles.bag} />
           <span className={styles.circle}>0</span>
-        </a>
+        </Link>
       </div>
     </div>
   );

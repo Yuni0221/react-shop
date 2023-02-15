@@ -7,8 +7,6 @@ import bag from "../assets/bag.jpg";
 import hat from "../assets/hat.jpg";
 import onepiece from "../assets/onepiece.jpg";
 
-import Footer from "../components/Footer";
-
 function Fashion() {
   return (
     <>
@@ -94,7 +92,6 @@ function Fashion() {
           </a>
         </div>
       </section>
-      <Footer />
     </>
   );
 }

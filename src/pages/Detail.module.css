@@ -1,23 +1,83 @@
 .mainText {
   display: flex;
   position: absolute;
-  margin-top: 90px;
+  margin-top: 110px;
   margin-left: 60px;
   color: #a6aeba;
   background-color: #2b303b;
   z-index: 99;
+  cursor: pointer;
 }
 
 .items {
   display: flex;
   position: relative;
   padding-top: 150px;
-  background-color: goldenrod;
+  height: 480px;
+  background-color: #2b303b;
 }
 
 .image {
   display: block;
   width: 300px;
   height: 320px;
-  vertical-align: middle;
+  margin: 20px;
+  border-radius: 14px;
+}
+
+.itemInfo {
+  display: block;
+  margin-top: 30px;
+  color: #a6aeba;
+}
+
+.itemTitle {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.itemDetail {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.price {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.button {
+  display: inline-flex;
+  flex-shrink: 0;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #6419e6;
+  width: 140px;
+  height: 50px;
+  margin-right: 1em;
+}
+
+.toCart {
+  display: inline-flex;
+  flex-shrink: 0;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #a6aeba;
+  border-radius: 12px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: transparent;
+  text-decoration: none;
+  width: 140px;
+  height: 50px;
 }
